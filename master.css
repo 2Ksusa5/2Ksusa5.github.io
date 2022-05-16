@@ -1,0 +1,198 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #000000d1 !important;
+}
+
+header .Header{
+  margin-top: 55px;
+}
+
+header .Header h1{
+  text-align: center;
+  font-size: 155px;
+  color: white;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 15px blue;
+}
+
+.Main-Block--Header{
+  background: black;
+}
+
+.Main-Block--Header .Main-Block--Header-p1{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 55px;
+  background: #66339959;
+  box-shadow: 0 0 20px 0 #241235;
+}
+
+.Main-Block--Header .Main-Block--Header-p2{
+  color: white;
+  font-size: 25px;
+  margin-left: 155px;
+  background: #ffe4c459;
+  border-radius: 50px 0 0 50px;
+  padding-left: 10px;
+  box-shadow: 0 0 20px 0 #595045;
+}
+
+.Main-Block--Header .Main-Block--Header-p3{
+  text-align: right;
+  color: white;
+  font-size: 25px;
+  margin-right: 155px;
+  background: rgba(127, 255, 212, 0.32);
+  border-radius: 0 50px 50px 0;
+  padding-right: 10px;
+  box-shadow: 0 0 20px 0 #295244;
+}
+
+body .Main-Block--Dress-Main-Img{
+  margin-top: 55px;
+  background: black;
+  padding: 25px;
+  border-radius: 50px;
+}
+
+body .Main-Block--Dress-Main-Img img{
+  border-radius: 50px;
+  height: 500px;
+}
+
+.--Dress-Main-Img--span2{
+  display: none;
+}
+
+.Main-Block--Dress-Fit{
+  margin-top: 55px;
+  background: black;
+  color: white;
+  border-radius: 50px;
+}
+
+.Main-Block--Dress-Fit .--Dress-Fit-Img{
+  text-align: center;
+}
+
+.Main-Block--Dress-Fit .--Dress-Fit--Hit{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  background: #ff000059;
+  border-radius: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  box-shadow: 0 0 30px 0;
+}
+
+.Main-Block--Dress-Fit .--Dress-Fit--Name{
+  text-align: center;
+  font-size: 35px;
+}
+
+.Main-Block--Dress-Fit .--Dress-Fit--Inf{
+  text-align: center;
+  font-size: 20px;
+}
+
+.Main-Block--Dress-Fit .--Dress-Fit--Btn{
+  text-align: center;
+  font-size: 35px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.Main-Block--Dress-Fit .--Dress-Fit--Btn:hover{
+  background: white;
+  color: black;
+  transition: 1s;
+}
+
+.Main-Comment{
+  margin-top: 55px;
+  text-align: center;
+  color: black;
+}
+
+.Main-Comment .Main-Comment-Comment{
+  background: antiquewhite;
+  padding: 10px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.Main-Comment .Main-Comment-Comment:not(:first-child){
+  margin-top: 20px;
+}
+
+.Main-Soon{
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 20px 0 white;
+  margin-bottom: 155px;
+  margin-top: 155px;
+}
+
+.back-1{
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 15px;
+  opacity: .5;
+}
+
+.back-1{
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 15px;
+  opacity: .2;
+}
+
+.back-2{
+  position: absolute;
+  z-index: -1;
+  top: 900px;
+  right: 0;
+  opacity: .2;
+}
+
+.back-3{
+  position: absolute;
+  z-index: -1;
+  top: 2389px;
+  opacity: .2;
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+
+  body .Main-Block--Dress-Main-Img img{
+    height: 250px;
+  }
+
+  .Main-Block--Dress-Fit .--Dress-Fit-Img{
+    text-align: left;
+  }
+
+  .Main-Block--Dress-Fit .--Dress-Fit-Img img{
+    border-radius: 50px;
+  }
+
+  .Main-Block--Dress-Fit .--Dress-Fit-Cont{
+    background: #0000009c;
+    border-radius: 50px;
+  }
+
+}
